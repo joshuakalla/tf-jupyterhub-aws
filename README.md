@@ -1,6 +1,6 @@
 # Launch JupyterHub to AWS with Terraform
 
-This code makes it easy to launch [The Littlest JupyterHub](https://the-littlest-jupyterhub.readthedocs.io/en/latest/) to AWS using [Terraform](https://terraform.io) rather than doing the point-and-click installation.
+This code makes it easy to launch [The Littlest JupyterHub](https://the-littlest-jupyterhub.readthedocs.io/en/latest/) to AWS using [Terraform](https://terraform.io) rather than doing the point-and-click installation. Terraform is an infrastructure as code software that lets you define and  provision infrastructure in the public cloud.
 
 # Prerequisites
 
@@ -20,7 +20,7 @@ This guide assumes you have:
 
 3. In the file `aws-creds.tf`, you can change your AWS region, AMI, and instance size. The defaults are East-1, an Ubuntu Server 18.04 LTS (HVM), and t3.medium. You can learn more about instance sizes [here](https://aws.amazon.com/ec2/pricing/on-demand/). You probably will not change the region or AMI.
 
-4. In your command line, navigate to the cloned repository on your computer (e.g., on a Mac in Terminal type `cd cd ~/Desktop/tf-jupyterhub-aws`).
+4. In your command line, navigate to the cloned repository on your computer (e.g., on a Mac in Terminal type `cd ~/Desktop/tf-jupyterhub-aws`).
 
 5. The first time you run Terraform, type `terraform init`.
 
